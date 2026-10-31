@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use AgentWrapped in a write-up, please cite it as below."
+title: "AgentWrapped: Spotify Wrapped for AI coding agents"
+version: 0.1.0
+date-released: 2026-10-31
+license: MIT
+type: software
+authors:
+  - family-names: Kumar
+    given-names: Vikas
+repository-code: "https://github.com/truevikas/agentwrapped"
+url: "https://github.com/truevikas/agentwrapped"
+keywords:
+  - Claude Code
+  - Codex CLI
+  - token usage
+  - cost tracking
+  - AI coding agents
+  - local-first
+abstract: >-
+  Local, read-only year-in-review for Claude Code and OpenAI Codex CLI
+  session logs. Estimates tokens, cost, hours, streaks, models, and files
+  without uploading transcripts.

@@ -1,0 +1,24 @@
+{
+  "models": [
+    { "match": "claude-opus", "inputPerMTok": 15, "outputPerMTok": 75, "cacheReadPerMTok": 1.5, "cacheWritePerMTok": 18.75 },
+    { "match": "claude-sonnet", "inputPerMTok": 3, "outputPerMTok": 15, "cacheReadPerMTok": 0.3, "cacheWritePerMTok": 3.75 },
+    { "match": "claude-haiku", "inputPerMTok": 1, "outputPerMTok": 5, "cacheReadPerMTok": 0.1, "cacheWritePerMTok": 1.25 },
+    { "match": "gpt-5.4-mini", "inputPerMTok": 0.4, "outputPerMTok": 1.6, "cacheReadPerMTok": 0.04 },
+    { "match": "gpt-5-mini", "inputPerMTok": 0.25, "outputPerMTok": 2, "cacheReadPerMTok": 0.025 },
+    { "match": "gpt-5.4", "inputPerMTok": 2.5, "outputPerMTok": 15, "cacheReadPerMTok": 0.25 },
+    { "match": "gpt-5", "inputPerMTok": 1.25, "outputPerMTok": 10, "cacheReadPerMTok": 0.125 },
+    { "match": "gpt-4.1", "inputPerMTok": 2, "outputPerMTok": 8, "cacheReadPerMTok": 0.5 },
+    { "match": "gpt-4o-mini", "inputPerMTok": 0.15, "outputPerMTok": 0.6, "cacheReadPerMTok": 0.075 },
+    { "match": "gpt-4o", "inputPerMTok": 2.5, "outputPerMTok": 10, "cacheReadPerMTok": 1.25 },
+    { "match": "o4-mini", "inputPerMTok": 1.1, "outputPerMTok": 4.4, "cacheReadPerMTok": 0.275 },
+    { "match": "o3-mini", "inputPerMTok": 1.1, "outputPerMTok": 4.4, "cacheReadPerMTok": 0.55 },
+    { "match": "o3", "inputPerMTok": 2, "outputPerMTok": 8, "cacheReadPerMTok": 0.5 },
+    { "match": "codex-mini", "inputPerMTok": 0.25, "outputPerMTok": 2, "cacheReadPerMTok": 0.025 }
+  ],
+  "default": {
+    "inputPerMTok": 3,
+    "outputPerMTok": 15,
+    "cacheReadPerMTok": 0.3,
+    "cacheWritePerMTok": 3.75
+  }
+}

@@ -1,0 +1,4 @@
+{"timestamp":"2026-03-04T22:15:00.000Z","type":"session_meta","payload":{"id":"codex-wed","timestamp":"2026-03-04T22:15:00.000Z","cwd":"/home/dev/app"}}
+{"timestamp":"2026-03-04T22:15:00.000Z","type":"turn_context","payload":{"model":"gpt-5.4","cwd":"/home/dev/app"}}
+{"timestamp":"2026-03-04T22:16:00.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","input":"*** Begin Patch\n*** Update File: /home/dev/app/src/cli/main.ts\n*** End Patch"}}
+{"timestamp":"2026-03-04T22:16:00.000Z","type":"event_msg","payload":{"type":"token_count","info":{"total_token_usage":{"input_tokens":46000,"cached_input_tokens":40000,"output_tokens":3000,"reasoning_output_tokens":0,"total_tokens":49000}}}}

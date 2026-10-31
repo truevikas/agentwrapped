@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.output/
+.vercel/
+.nitro/
+.tanstack/
+coverage/
+.cache/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+.node_modules.lock
+
+# App Builder sandbox internals and local QA captures
+.grok/
+artifacts/
+screenshots/
+AGENTS.md

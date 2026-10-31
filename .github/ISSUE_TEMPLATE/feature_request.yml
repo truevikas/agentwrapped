@@ -1,0 +1,33 @@
+name: Feature request
+description: Another agent, a stat, or a card change
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What can you not answer about your coding-agent year today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Which agent, log path, or stat should AgentWrapped add?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - New agent adapter
+        - Parser accuracy
+        - Cost table
+        - Card or HTML
+        - CLI
+        - Web story
+        - Docs
+    validations:
+      required: true

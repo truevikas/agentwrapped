@@ -1,0 +1,3 @@
+{"type":"thread.started","thread_id":"thread-mini"}
+{"type":"turn.completed","usage":{"input_tokens":24763,"cached_input_tokens":24448,"output_tokens":122}}
+{"type":"item.completed","item":{"type":"file_change","changes":[{"path":"src/app.ts","kind":"update"}],"status":"completed"}}

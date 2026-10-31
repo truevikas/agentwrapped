@@ -1,0 +1,17 @@
+# Copy to prices.yaml and pass --prices ./prices.yaml
+# Rates are USD per 1,000,000 tokens. Longest `match` substring wins.
+models:
+  - match: claude-sonnet
+    inputPerMTok: 3
+    outputPerMTok: 15
+    cacheReadPerMTok: 0.3
+    cacheWritePerMTok: 3.75
+  - match: gpt-5.4
+    inputPerMTok: 2.5
+    outputPerMTok: 15
+    cacheReadPerMTok: 0.25
+default:
+  inputPerMTok: 3
+  outputPerMTok: 15
+  cacheReadPerMTok: 0.3
+  cacheWritePerMTok: 3.75

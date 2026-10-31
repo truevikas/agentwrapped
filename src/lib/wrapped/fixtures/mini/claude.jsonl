@@ -1,0 +1,5 @@
+{"type":"user","timestamp":"2026-02-01T10:00:00.000Z","sessionId":"mini-c","message":{"role":"user","content":"hi"}}
+not-json
+{"type":"assistant","timestamp":"2026-02-01T10:00:02.000Z","sessionId":"mini-c","cwd":"/home/dev/app","message":{"id":"m1","model":"claude-sonnet-4-5","role":"assistant","usage":{"input_tokens":100,"output_tokens":40,"cache_read_input_tokens":50,"cache_creation_input_tokens":10},"content":[{"type":"tool_use","name":"Edit","input":{"file_path":"/home/dev/app/src/lib/parse.ts"}},{"type":"tool_use","name":"Read","input":{"file_path":"/home/dev/app/README.md"}}]}}
+{"type":"assistant","timestamp":"2026-02-01T10:00:03.000Z","sessionId":"mini-c","message":{"id":"m1","model":"claude-sonnet-4-5","usage":{"input_tokens":10,"output_tokens":1,"cache_read_input_tokens":0,"cache_creation_input_tokens":0},"content":[{"type":"text","text":"partial"}]}}
+{"type":"assistant","timestamp":"2026-02-01T10:05:00.000Z","sessionId":"mini-c","message":{"id":"m2","model":"claude-sonnet-4-5","usage":{"input_tokens":20,"output_tokens":5,"cache_read_input_tokens":0,"cache_creation_input_tokens":0},"content":"plain string"}}
