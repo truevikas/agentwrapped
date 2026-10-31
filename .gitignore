@@ -13,8 +13,10 @@ coverage/
 .DS_Store
 .node_modules.lock
 
-# App Builder sandbox internals and local QA captures
-.grok/
+# App Builder sandbox internals and local QA captures.
+# app-env.json must stay: the build reads it to keep auth off.
+.grok/*
+!.grok/app-env.json
 artifacts/
 screenshots/
 AGENTS.md
